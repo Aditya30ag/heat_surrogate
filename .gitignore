@@ -1,0 +1,7 @@
+# Ignore dataset files only
+data/*.npz
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class

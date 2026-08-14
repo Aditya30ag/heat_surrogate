@@ -1,0 +1,72 @@
+{
+  "solver": {
+    "mean": 0.0003133409994188696,
+    "std": 5.906979295131682e-05,
+    "median": 0.0002920500701293349,
+    "min": 0.00026430003345012665,
+    "max": 0.0006968001835048199,
+    "n_repeats": 200,
+    "stride": 10,
+    "N": 64
+  },
+  "cnn": {
+    "1": {
+      "batch_total_mean": 0.005697864999528974,
+      "batch_total_std": 0.001375356209547975,
+      "per_sample_mean": 0.005697864999528974,
+      "per_sample_std": 0.001375356209547975,
+      "per_sample_median": 0.00538334995508194,
+      "n_repeats": 200,
+      "n_warmup": 20
+    },
+    "8": {
+      "batch_total_mean": 0.027452596509829164,
+      "batch_total_std": 0.0033473616179420054,
+      "per_sample_mean": 0.0034315745637286455,
+      "per_sample_std": 0.00041842020224275067,
+      "per_sample_median": 0.00333726876124274,
+      "n_repeats": 200,
+      "n_warmup": 20
+    },
+    "32": {
+      "batch_total_mean": 0.12092533499468118,
+      "batch_total_std": 0.011601329540672832,
+      "per_sample_mean": 0.003778916718583787,
+      "per_sample_std": 0.000362541548146026,
+      "per_sample_median": 0.0038514421867148485,
+      "n_repeats": 200,
+      "n_warmup": 20
+    },
+    "64": {
+      "batch_total_mean": 0.3042928590090014,
+      "batch_total_std": 0.11988868521245247,
+      "per_sample_mean": 0.004754575922015647,
+      "per_sample_std": 0.0018732607064445698,
+      "per_sample_median": 0.0040292906251124805,
+      "n_repeats": 200,
+      "n_warmup": 20
+    },
+    "128": {
+      "batch_total_mean": 0.6013020025042352,
+      "batch_total_std": 0.03543632039530885,
+      "per_sample_mean": 0.004697671894564337,
+      "per_sample_std": 0.0002768462530883504,
+      "per_sample_median": 0.004705481250312005,
+      "n_repeats": 200,
+      "n_warmup": 20
+    }
+  },
+  "speedups": {
+    "1": 0.054992703309884074,
+    "8": 0.09131114408261691,
+    "32": 0.08291820718830223,
+    "64": 0.0659030383694099,
+    "128": 0.06670133769483466
+  },
+  "device": "cpu",
+  "notes": {
+    "solver_description": "Explicit FD, 10 steps, 64x64 grid",
+    "cnn_description": "Single forward pass, includes data transfer",
+    "fair_comparison": "Both produce T(t + stride*dt) from T(t)"
+  }
+}
