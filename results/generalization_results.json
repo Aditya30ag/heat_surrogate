@@ -1,0 +1,79 @@
+{
+  "baseline_rel_l2_mean": 2.1878164647779847,
+  "baseline_rel_l2_std": 1.306670977865253,
+  "exp1_near_boundary": {
+    "rel_l2_mean": 5.580130768006445,
+    "rel_l2_std": 2.347730896673163,
+    "degradation": 3.39231430322846,
+    "type": "extrapolation"
+  },
+  "exp2_n_blobs": {
+    "1": {
+      "rel_l2_mean": 3.4124698260343393,
+      "rel_l2_std": 2.19503519055612,
+      "in_dist": true
+    },
+    "2": {
+      "rel_l2_mean": 1.870873905842466,
+      "rel_l2_std": 0.676913991656778,
+      "in_dist": true
+    },
+    "3": {
+      "rel_l2_mean": 1.4974888005596183,
+      "rel_l2_std": 0.4576616481805236,
+      "in_dist": true
+    },
+    "4": {
+      "rel_l2_mean": 1.3781746639845829,
+      "rel_l2_std": 0.31419766635667784,
+      "in_dist": false
+    },
+    "5": {
+      "rel_l2_mean": 1.2949181580626679,
+      "rel_l2_std": 0.19351370268213308,
+      "in_dist": false
+    }
+  },
+  "exp3_low_amplitude": {
+    "rel_l2_mean": 8.752373768754254,
+    "rel_l2_std": 7.265988494881147,
+    "degradation": 6.564557303976269,
+    "type": "extrapolation"
+  },
+  "exp4_blob_width": {
+    "Narrow  [0.04,0.08] IN": {
+      "rel_l2_mean": 4.174048455695371,
+      "rel_l2_std": 1.8977795708867187
+    },
+    "Medium  [0.08,0.15] IN": {
+      "rel_l2_mean": 1.8044158791446723,
+      "rel_l2_std": 0.7651563173001921
+    },
+    "Wide    [0.15,0.20] OOD": {
+      "rel_l2_mean": 1.3862268100702475,
+      "rel_l2_std": 0.42491638953559496
+    },
+    "Wider   [0.20,0.28] OOD": {
+      "rel_l2_mean": 1.4438111798642463,
+      "rel_l2_std": 0.3725161545715133
+    }
+  },
+  "exp5_alpha": {
+    "alpha=0.005 (slower, OOD)": {
+      "rel_l2_mean": 2.0899049083967585,
+      "rel_l2_std": 1.2976268362560668
+    },
+    "alpha=0.010 (training, IN)": {
+      "rel_l2_mean": 2.0899049083967585,
+      "rel_l2_std": 1.2976268362560668
+    },
+    "alpha=0.020 (faster, OOD)": {
+      "rel_l2_mean": 2.0899049083967585,
+      "rel_l2_std": 1.2976268362560668
+    },
+    "alpha=0.050 (much faster, OOD)": {
+      "rel_l2_mean": 2.0899049083967585,
+      "rel_l2_std": 1.2976268362560668
+    }
+  }
+}
