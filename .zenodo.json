@@ -1,0 +1,29 @@
+{
+  "title": "Neural Network Surrogate Modeling for 2D Heat Diffusion: Accuracy, Rollout Stability, and Physics-Informed Training",
+  "description": "Complete implementation of a CNN surrogate for 2D transient heat diffusion. Includes finite-difference solver, dataset generation, baseline CNN training, autoregressive rollout evaluation, physics-informed training, generalization experiments, and ablation studies. Companion code for the paper submitted August 2026.",
+  "creators": [
+    {
+      "name": "Aditya Agrawal",
+      "affiliation": "Department of Computer Engineering, Bennet University, Greater Noida, India"
+    }
+  ],
+  "keywords": [
+    "surrogate modeling",
+    "heat diffusion",
+    "convolutional neural networks",
+    "physics-informed machine learning",
+    "partial differential equations",
+    "scientific machine learning",
+    "autoregressive rollout"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.22044300",
+      "scheme": "doi"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Neural Network Surrogate Modeling for 2D Heat Diffusion"
+authors:
+  - family-names: "Aditya Agrawal"
+    given-names: "Aditya Agrawal"
+    orcid: "https://orcid.org/0009-0007-3632-8701"
+repository-code: "https://github.com/Aditya30ag/heat-surrogate"
+abstract: >
+  CNN surrogate model for 2D transient heat diffusion with
+  physics-informed training, rollout stability analysis, and
+  out-of-distribution generalization experiments.
+keywords:
+  - surrogate modeling
+  - heat diffusion
+  - convolutional neural networks
+  - physics-informed machine learning
+  - partial differential equations
+license: MIT
+version: "1.0.0"
+date-released: "2026-08-21"
