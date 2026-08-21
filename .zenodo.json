@@ -18,12 +18,5 @@
   ],
   "license": "MIT",
   "upload_type": "software",
-  "access_right": "open",
-  "related_identifiers": [
-    {
-      "relation": "isSupplementTo",
-      "identifier": "10.5281/zenodo.22044554",
-      "scheme": "doi"
-    }
-  ]
+  "access_right": "open"
 }
