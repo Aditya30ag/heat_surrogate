@@ -4,6 +4,7 @@
 
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange.svg)](https://pytorch.org/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22044554.svg)](https://doi.org/10.5281/zenodo.22044554)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > Companion code for the paper:
@@ -358,6 +359,7 @@ If you use this code or findings in your research, please cite:
              Accuracy, Rollout Stability, and Physics-Informed Training},
   journal = {[Journal name]},
   year    = {2026},
+  doi       = {10.5281/zenodo.22044554},
   url     = {https://github.com/Aditya30ag/heat_surrogate.git}
 }
 ```
