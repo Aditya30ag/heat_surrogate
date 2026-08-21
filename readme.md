@@ -111,7 +111,7 @@ heat_surrogate/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/[your-username]/heat-surrogate.git
+git clone https://github.com/Aditya30ag/heat-surrogate.git
 cd heat-surrogate
 ```
 
@@ -358,7 +358,7 @@ If you use this code or findings in your research, please cite:
              Accuracy, Rollout Stability, and Physics-Informed Training},
   journal = {[Journal name]},
   year    = {2026},
-  url     = {[repository URL]}
+  url     = {https://github.com/Aditya30ag/heat_surrogate.git}
 }
 ```
 
